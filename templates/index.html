@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+{% block body %}
+
+<!-- Prediction Form -->
+<div class='div2'>
+    <form action="{{ url_for('predict') }}" method="POST" name="get_data">
+    	{{ error }}
+        <!-- Batting Team Dropdown -->
+        <select class="form-input align-center" name="batting-team" required="Blank">
+            <option value="none">--- Select a Batting team ---</option>
+            <option value="Mumbai Indians">Mumbai Indians</option>
+            <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+            <option value="Chennai Super Kings">Chennai Super Kings</option>
+            <option value="Rajasthan Royals">Rajasthan Royals</option>
+            <option value="Kings XI Punjab">Kings XI Punjab</option>
+            <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+            <option value="Delhi Daredevils">Delhi Daredevils</option>
+            <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+        </select><br>
+        <!-- Bowling Team Dropdown -->
+        <select class="form-input align-center" name="bowling-team" required="Blank">
+            <option value="none">--- Select a Bowling team ---</option>
+            <option value="Mumbai Indians">Mumbai Indians</option>
+            <option value="Kolkata Knight Riders">Kolkata Knight Riders</option>
+            <option value="Chennai Super Kings">Chennai Super Kings</option>
+            <option value="Rajasthan Royals">Rajasthan Royals</option>
+            <option value="Kings XI Punjab">Kings XI Punjab</option>
+            <option value="Royal Challengers Bangalore">Royal Challengers Bangalore</option>
+            <option value="Delhi Daredevils">Delhi Daredevils</option>
+            <option value="Sunrisers Hyderabad">Sunrisers Hyderabad</option>
+        </select><br>
+        <input class="form-input" type="text" name="overs" placeholder="Overs (>= 5.0) eg. 7.2" required="Blank not valid"><br>
+        <input class="form-input" type="text" name="runs" placeholder="Runs eg. 64" required="Blank not valid"><br>
+        <input class="form-input" type="text" name="wickets" placeholder="Wickets eg. 4" required="Blank not valid"><br>
+        <input class="form-input" type="text" name="runs_in_prev_5" placeholder="Runs scored in previous 5 Overs eg. 42" required="Blank not valid"><br>
+        <input class="form-input" type="text" name="wickets_in_prev_5" placeholder="Wickets taken in previous 5 Overs eg. 3" required="Blank not valid"><br>
+
+		<input type="submit" class="myButton" value="Predict Score">
+    </form>
+</div>
+            
+{% endblock %}
