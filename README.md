@@ -18,12 +18,7 @@ pip install -r requirements.txt
  
 
 # Technology used in Project :hotsprings:
-<img target="_blank" src="https://github.com/rohitpthak/technology/blob/master/pandas.png" width="300">    
-<img target="_blank" src="https://github.com/rohitpthak/technology/blob/master/numpy.png" width="200">     
-<img target="_blank" src="https://github.com/rohitpthak/technology/blob/master/sklearn.png" width="200"> 
-<img target="_blank" src="https://github.com/rohitpthak/technology/blob/master/Flask.png" width="300">
-
-
+<img target="_blank" src="https://github.com/rohitpathak18/technology/blob/master/Jupyter.png" width="150">    <img target="_blank" src="https://github.com/rohitpathak18/technology/blob/master/numpy.png" width="200">     <img target="_blank" src="https://github.com/rohitpathak18/technology/blob/master/pandas.png" width="300">     <img target="_blank" src="https://github.com/rohitpathak18/technology/blob/master/seaborn.png" width="200">
 
 
 
