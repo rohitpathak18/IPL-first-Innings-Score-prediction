@@ -11,7 +11,7 @@ The problem was to **'Predict a score of first inning after five overs played'.*
  - IPL is very popular in India. The match of ipl has 20-20 overs, if we can estimate the score of first inning, that's why I have made this project. Although it is difficult to predict what will happen in cricket, but this project would give us an estimate based on past match. I hope would be you like it.
 
 ## Installation:
-The Code is written in Python 3.7 . If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+The Code is written in Python 3.6.9. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
 ```bash
 pip install -r requirements.txt
 ```
